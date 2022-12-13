@@ -1,0 +1,248 @@
+
+.mainBox{
+    background-color: rgb(38, 34, 34);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    font-size: larger;
+   
+}
+.mainBoxFirst{
+    width: 40%;
+    padding-left: 10px;
+    font-family:cursive;
+    color: white;
+    font-weight: 800;
+    font-size:xx-large;
+}
+.mainBoxSecond{
+    justify-content: space-evenly;
+    width: 50%;
+    font-family:  "Lucida Console", "Courier New", monospace;
+    
+}
+
+.mainAbout{
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+.mainAboutSecond{
+   width: 20%;
+   border-radius: 50px;
+
+}
+.mainAboutImage{
+   width: 100%;
+   border-radius: 100px;
+}
+.aZInex{
+    z-index: 9999;
+}
+a{
+        scroll-behavior: smooth;
+
+}
+.mainAboutFirst{
+    width: 40%;
+    font-family:cursive;
+}
+.bishal{
+    font-family: "Segoe Print", Times, serif;
+    font-size: 65px;
+    font-weight: 700;
+      /* position: relative;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Megrim', cursive;
+  text-shadow: 
+        0 0 5px #062980,
+        0 0 10px #062980,
+        0 0 20px #062980,
+        0 0 40px #062980,
+        0 0 80px #062980; */
+}
+.bishalAbout{
+    padding-top: 30px;
+    letter-spacing: 2px;
+    font-size: 19px;
+    line-height: 1.6;
+}
+.heyThere{
+    font-size: 35px;
+}
+.sideBox{
+    display: block;
+  position: fixed;
+  z-index: 9999;
+  bottom: 50;
+  top: 300px;
+  left: 0;
+}
+#aResume{
+    border: 2px solid gray;
+  outline: rgb(40, 162, 162) solid 5px;
+  padding: 3px 10px;
+}
+.sideBoxText{
+    font-size: 40px;
+    
+}
+.icons:hover{
+    color: green;
+   
+}
+.mainButton{
+    background:  orange;
+    color: white;
+    border: 1px solid red;
+    padding: 5px 15px;
+    box-shadow: 2px 2px 25px orange
+}
+.mainButton:hover{
+    background:  orange;
+    opacity: 0.9;
+    transition: 0.2s ease-out;
+}
+
+.tab{
+    width: 60%;
+}
+
+
+.ResumeLinkdein{
+width: 80%;
+}
+@media screen and (max-width: 1000px) and (min-width: 700px){
+.ResumeLinkdein{
+    width: 100%;
+}
+.tab{
+    width: 80%;
+}
+}
+
+
+@media screen and (max-width: 350px) {
+    .icons{
+    font-size: 30px;
+    font-weight: 600;
+}
+.icons:hover{
+    font-size: 40px;
+}
+}
+.sideBoxText:hover{
+    font-size: 50px;
+    
+}
+@media screen and (max-width: 560px) and (min-width: 470px) {
+    .sideBox{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    
+   
+    .mainBoxSecond {
+        width: 0;
+        display: none;
+    }
+  
+    .aZInex{
+        z-index: -1;
+    }
+    #aResume{
+        display: none;
+        width: 0;
+    }
+    
+    .mainBoxFirst{
+        width: 25%;
+        text-align: center;
+        
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mainAboutSecond{
+        width: 60%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 700px) and (min-width: 500px) {
+    .mainAboutSecond{
+        width: 40%;
+        margin: auto;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+   
+.mainAbout{
+    display: block;
+}
+.mainAboutFirst{
+    width: 90%;
+    margin: auto;
+}
+
+.mainAboutImage{
+    width: 100%;
+    border-radius: 0px;
+ }
+ .bishalAbout{
+    letter-spacing: 0px;
+    font-size: 15px;
+}
+ .bishal{
+    font-size:35px ;
+ }
+ .heyThere{
+    font-size: 25px;
+ }
+}
+@media screen and (max-width: 950px) and (min-width: 700px) {
+   
+    .bishalAbout{
+        letter-spacing: 1px;
+        font-size: 15px;
+    }
+    .mainAboutSecond{
+        width: 30%;
+        border-radius: 20px;
+     
+     }
+     .bishal{
+        font-size:38px ;
+     }
+     .heyThere{
+        font-size: 25px;
+    }
+    
+  }
+
+
+
+  @media screen and (min-width: 950px) and (max-width: 1250px) {
+    .mainAboutSecond{
+        width: 25%;
+        border-radius: 20px;
+     
+     }
+     .bishal{
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .heyThere{
+        font-size: 30px;
+    }
+    .mainBoxSecond{
+        width: 70%;
+    }
+  }
